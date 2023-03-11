@@ -15,23 +15,23 @@
     <menu id="menu">
         <li id="menu_about">
             <form>
-                <button id="about_button">О нас</button>
+                <button id="about_button" class="about">О нас</button>
             </form>
         </li>
         <li id="menu_project">
             <form>
-                <button id="project_button">Проекты</button>
+                <button id="project_button" class="project">Проекты</button>
             </form>
         </li>
         <li id="menu_contact">
             <form>
-                <button id="contact_button">Контакты</button>
+                <button id="contact_button" class="contact">Контакты</button>
             </form>
         </li>
     </menu>
 </header>
 <div id="information">
-    <div id="information_about">
+    <div id="information_about" class="about">
         <p>ITSC - это не просто компания.<br><br>
             Это сообщество, объединённое общими интересами и навыками.</p>
         <p>Мы помогаем тем, кто хочет применить свои новые знания на реальных проектах в период поиска работы.</p>
@@ -42,7 +42,7 @@
             Мы верим в то, что человек, искренне стремящийся к своей цели всегда её достигает
             и получает удовлетворение от тех трудностей, которые он преодолел.</p>
     </div>
-    <div id="information_project">
+    <div id="information_project" class="project">
         <p>Проект “Стажировка”<br><br>
             Это основной проект нашей компании.<br>
             В рамках него мы ведём разработку ПО своими силами либо силами стажёров.<br><br>
@@ -51,20 +51,21 @@
             разработчики, тестировщики и руководители.<br><br>
             По результатам стажировки ты, кроме опыта, получишь наши рекомендации для трудоустройства.</p>
     </div>
-    <div id="information_contact">
+    <div id="information_contact" class="contact">
         <p>Остались вопросы, пиши в ТГ: t.me/hr_itsc<br><br>
             Если ты хочешь присоединиться к команде, отправляй резюме на этот адрес: hr@tinetoon.ru</p>
     </div>
 </div>
 <footer>
-    <hr>
-    <div id="copyright">
-        <p>©&nbsp;2023, IT Special Company Все права защищены.</p>
-    </div>
-    <div id="telegram">
-        <a href="https://t.me/hr_itsc" target="_blank">
-            <img src="img/tg.svg" alt="Ссылка на ТГ канал">
-        </a>
+    <div class="footer_down">
+        <div id="copyright">
+            <p>©&nbsp;2023, IT Special Company Все права защищены.</p>
+        </div>
+        <div id="telegram">
+            <a href="https://t.me/hr_itsc" target="_blank">
+                <img src="img/tg.svg" alt="Ссылка на ТГ канал">
+            </a>
+        </div>
     </div>
 </footer>
 </body>
